@@ -1,3 +1,5 @@
+/* Geral */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +31,8 @@ li a {
     width: 90%;
 }
 
+/* Top Header */
+
 .top-header-logo {
     display: flex;
     align-items: center;
@@ -40,18 +44,27 @@ li a {
     align-items: center;
     justify-content: space-between;
     margin-top: 1rem;
+    position: relative;
 }
 
 .top-header-linksContainer{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.top-header-linksContainer label {
+    margin-bottom: 3rem;
+    text-align: right;
 }
 
 .top-header-links1 {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin-bottom: 3rem;
 }
 
 .top-header-links2 {
@@ -75,13 +88,14 @@ li a {
     color: white;
 }
 
-/*  */
+/* burguer */
 
 .check {
     width: 20px;
     height: 2px;
     background-color: black;
     display: inline-block;
+    position: relative;
 }
 
 .check::after,
@@ -91,4 +105,28 @@ li a {
     height: 2px;
     background-color: black;
     display: inline-block;
+    position: absolute;
+}
+
+.check::after {
+    transform: translate(-20px, 8px);
+}
+.check::before {
+    transform: translate(-20px, -8px);
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+}
+
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.top-header-linksContainer + input[type="checkbox"]:checked .hidden {
+    max-width: 100vh;
 }
