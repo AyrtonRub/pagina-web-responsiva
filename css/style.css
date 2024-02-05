@@ -172,6 +172,10 @@ input[type="checkbox"] {
     grid-column: span 12;
 }
 
+.mo-4 {
+    grid-column: 4;
+}
+
 /* Hero banner */
 
 .hero-banner div > p  {
@@ -391,6 +395,42 @@ input[type="checkbox"] {
     
 .social-contacts  {
     background-color: var(--primaryColor);
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+.social-contacts h5 {
+    font-size: 1.2rem;
+}
+
+.social-contacts  a{
+    font-size: 1.5rem;
+    color: white;
+    transition: all .3s;
+}
+
+.social-contacts i {
+    font-size: 2.3rem;
+}
+
+.social-contacts a:hover,
+.social-contacts a:focus {
+    transform: translate(-2px, -2px);
+}
+
+.products {
+    grid-column: 1 / 4;
+}
+
+.about {
+    grid-column: 4 / 8;
+}
+
+.catalog {
+    grid-column: 8 / -1;
 }
