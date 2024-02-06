@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="midlle.css">
+    <link rel="stylesheet" href="desktop.css">
     <title>Página Web</title>
 </head>
 <body class="container">
+    <!-- top header -->
     <header class="top-header">
         <div class="top-header-logo">
             <img src="imagens/e.svg" alt="E-logo">
@@ -28,8 +32,9 @@
                 <li><a href="#">send money</a></li>
                 <li><a href="#">receive money</a></li>
                 <li><a href="#">language</a></li>
-                <li><a href="#">How it works</a></li>
+                
                 <div class="botoes">
+                    <li><a href="#">How it works</a></li>
                     <li ><a href="#" class="btn">Sign in</a></li>
                     <li><a href="#" class="btn-destaque btn">Register</a></li>
                 </div>
@@ -40,7 +45,7 @@
     <main>
         <!-- Hero banner -->
         <section class="row hero-banner">
-            <div class="mo-12">
+            <div class="mo-12 de-5 hero-bannerTitles">
                 <h1>
                     Sending Money is 
                     Easier than before
@@ -54,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="hidden mo-12">
+            <div class="hero-banner-img mo-12 de-5-inverse">
                 <img src="imagens/mobile.svg" alt="">
             </div>
         </section>
@@ -71,16 +76,18 @@
                 </p>
             </div>
 
-            <div class="row mo-12 cards">
-                <article class="mo-12">
+            <div class="mo-12 cards">
+                <article >
                     <div>
                         <img src="imagens/Carta.jpg" class="cards-img" alt="Carta">
                     </div>
 
-                    <h3> in-app transer</h3>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, explicabo!
-                    </p>
+                    <div class="cards-text">
+                        <h3> in-app transer</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, explicabo!
+                        </p>
+                    </div>
                 </article>
 
                 <article class="mo-12">
@@ -88,10 +95,12 @@
                         <img src="imagens/flor.jpeg" class="cards-img" alt="Flor">
                     </div>
 
-                    <h3> in-app transer</h3>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, explicabo!
-                    </p>
+                    <div class="cards-text">
+                        <h3> in-app transer</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, explicabo!
+                        </p>
+                    </div>
                 </article>
 
                 <article class="mo-12">
@@ -99,10 +108,12 @@
                         <img src="imagens/van.jpeg" class="cards-img" alt="">
                     </div>
 
-                    <h3> in-app transer</h3>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, explicabo!
-                    </p>
+                    <div class="cards-text">
+                        <h3> in-app transer</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, explicabo!
+                        </p>
+                    </div>
                 </article>
             </div>
 
@@ -110,9 +121,6 @@
         </section>
         <!-- real time -->
         <section class="row real-time">
-            <div class="hidden">
-                <img src="imagens/man.png" alt="">
-            </div>
 
             <div class="mo-12">
                 <h2>
@@ -123,20 +131,28 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, adipisci!
                 </p>
 
-                <a href="#">Ream More</a>
+                <a href="#">Ream More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="real-time-img mo-12">
+                <img src="imagens/man.png" alt="">
             </div>
         </section>
 
         <!-- We Are -->
 
         <section>
-            <div>
-                <h2 class="linha weAre-title">
-                    We are giving Services <a href="#">
+            <div class="weAre">
+                <div class="weAre-boxTitle">
+                    <h2 class="linha weAre-title">
+                        We are giving Services
+                    </h2>
+                    <a href="#">
                         <img src="imagens/e.svg" alt="logo" class="img-e">
                         <img src="imagens/Sendpay.png" alt="#" class="img-sandpay">
                     </a>
-                </h2>
+                </div>   
+                
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                 </p>
@@ -202,18 +218,18 @@
         <section>
 
             <!-- peaple are -->
-        <section class="pealple-are row">
-            <div class="peaple-are-text mo-12">
+        <section class="pealple-are ">
+            <div class="peaple-are-text">
                 <p>
                     Peaple <br> Are <br> Saying <br> About Us
                 </p>
 
                 <a href="#">
-                    See all
+                    See all <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
-            <div class="peaple-are-cards mo-12">
+            <div class="peaple-are-cards">
                 <article class="peaple-are-cardsBox">
                     <p>
                         <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa amet placeat aliquam error necessitatibus rem?</i>
@@ -276,6 +292,8 @@
                 </article>
             </div>
         </section>
+
+        <!-- footer -->
 
         <footer class="row">
             <div class="mo-12 footer-text">

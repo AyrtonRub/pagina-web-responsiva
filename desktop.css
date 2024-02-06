@@ -1,0 +1,60 @@
+@media screen and (min-width: 67.18em) {
+    /* top header */
+    .top-header-menu {
+        position: initial;
+        max-height: initial;
+        background-color: initial;
+        width: initial;
+        text-align: initial;
+    }
+
+    .burguer-menu {
+        display: none;
+    }
+
+    .top-header-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+   
+    .botoes {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* Hero banner */
+
+    .de-5 {
+        grid-column: 1 / 5;
+    }
+
+    .de-5-inverse {
+        grid-column: 8 / -1;
+    }
+
+    .hero-banner h1 {
+        font-size: 2.75rem ;
+        position: relative;
+    }
+
+    .hero-banner h1::before {
+        content: "";
+        display: inline-block;
+        width: 65px;
+        height: 4px;
+        background-color: var(--secondColor);
+        position: absolute;
+        border-radius: 5px;
+        bottom: 0;
+    }
+
+    .hero-bannerTitles {
+        text-align: left;
+    }
+
+    .hero-banner p {
+        font-size: 1.25rem;
+    }
+    
+}

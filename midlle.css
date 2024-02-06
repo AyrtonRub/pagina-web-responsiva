@@ -1,0 +1,37 @@
+@media screen and (min-width: 30em) {
+
+    /* hero banner */
+
+    .hero-banner-img {
+        display: initial;
+    }
+
+    /* HowItWorks */
+
+    .cards article {
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .cards-text {
+        text-align: left;
+    }
+
+    /* real time */
+
+    .real-time-img {
+        display: initial;
+    }
+
+    .weAre-cardsBox article {
+        grid-column: span 6;
+    }
+
+    /* We are */
+
+    .weAre-boxTitle {
+        flex-direction: row;
+    }
+    
+}
