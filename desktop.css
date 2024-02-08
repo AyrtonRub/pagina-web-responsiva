@@ -25,12 +25,44 @@
 
     /* Hero banner */
 
-    .de-5 {
-        grid-column: 1 / 5;
+    .lg-1-5 {
+        grid-column: 1 / 6;
     }
 
-    .de-5-inverse {
+    .lg-1-5-inverse {
         grid-column: 8 / -1;
+    }
+
+    .lg-3 {
+        grid-column: span 3;
+    }
+
+    .lg-9 {
+        grid-column: 4 / -1;
+    }
+
+    .lg-4-7 {
+        grid-column:  4 / 7;
+    }
+
+    .lg-1-4 {
+        grid-column: 1 / 4;
+    }
+
+    .lg-5-6 {
+        grid-column: 5 / 6;
+    }
+
+    .lg-7-8 {
+        grid-column: 7 / 8;
+    }
+
+    .lg-9-10 {
+        grid-column: 9 / 10;
+    }
+
+    .lg-11-13 {
+        grid-column: 11/13;
     }
 
     .hero-banner h1 {
@@ -56,5 +88,97 @@
     .hero-banner p {
         font-size: 1.25rem;
     }
+
+    /* HowItWorks */
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
+    .HowItWorks-titles p {
+        font-size: 1.56rem;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .cards {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .cards article {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-text {
+        text-align: center;
+    }
+     /* real time */
     
+     .real-time-titles {
+        text-align: left;
+     }
+
+     .real-time-titles p {
+        margin-top: 2rem;
+     }
+
+     .real-time-img {
+        margin-top: initial;
+     }
+
+     /* We are */
+
+     .weAre-cardsBox article {
+        flex-direction: row;
+        gap: 1.5rem;
+     }
+
+     .weAre-cardsBox article {
+        text-align: left;
+     }
+
+     /* peaple are */
+
+     .pealple-are {
+        padding: 5rem 2rem;
+     }
+
+     .peaple-are-cards {
+        flex-direction: row;
+        flex-basis: calc(25% - 1.5rem);
+     }
+
+     .peaple-are-cardsBox p {
+        font-size: 1.2rem;
+     }
+
+     .pealple-are::before  {
+        top: 50px;
+        height: 200px;
+        width: 200px;
+     }
+
+     .pealple-are::after {
+        right: 220px;
+        top: 50px;
+        height: 200px;
+        width: 200px;
+     }
+
+     .peaple-are-cards::before {
+        left: -60px;
+     }
+
+     /* footer */
+
+     .footer-text {
+        text-align: left;
+     }
+
+     .social-contacts a {
+        font-size: 1rem;
+     }
 }

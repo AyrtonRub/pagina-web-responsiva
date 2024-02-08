@@ -24,12 +24,12 @@
         display: initial;
     }
 
+    
+    /* We are */
+    
     .weAre-cardsBox article {
         grid-column: span 6;
     }
-
-    /* We are */
-
     .weAre-boxTitle {
         flex-direction: row;
     }

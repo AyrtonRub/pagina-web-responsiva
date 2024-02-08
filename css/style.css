@@ -333,6 +333,8 @@ input[type="checkbox"] {
     display: inline-block;
     padding: 1rem 0;
     position: relative;
+    line-height: 1.5em;
+    font-style: italic;
 }
 
 .peaple-are-text a {
@@ -340,7 +342,7 @@ input[type="checkbox"] {
     color: white;
     font-weight: 200;
     text-align: left;
-    margin: 1.5rem;
+    margin: 1.5rem 0;
 }
 
 .peaple-are-cards {
@@ -392,6 +394,7 @@ input[type="checkbox"] {
 
 .peaple-are-text  p {
     position: relative;
+    
 }
 
 .peaple-are-text  p::before {
@@ -427,7 +430,7 @@ input[type="checkbox"] {
 .social-contacts  {
     background-color: var(--primaryColor);
     padding: 1.5rem;
-    border-radius: 5px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -446,7 +449,7 @@ input[type="checkbox"] {
 }
 
 .social-contacts i {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 
 .social-contacts a:hover,
